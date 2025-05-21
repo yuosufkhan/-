@@ -1,0 +1,5 @@
+
+body { font-family: Tahoma, sans-serif; direction: rtl; margin: 20px; }
+#ads, #myAds, #inbox { margin-top: 20px; }
+.inbox-card { border: 1px solid #ccc; padding: 10px; margin: 10px 0; background: #fdfdfd; border-radius: 6px; }
+.inbox-card a { display: inline-block; margin-top: 5px; color: blue; }

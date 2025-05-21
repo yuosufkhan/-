@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <title>گفت‌وگو</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    #messages { max-height: 400px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; background: #f9f9f9; margin-bottom: 10px; }
+    .msg { margin-bottom: 8px; }
+    .msg.me { text-align: right; color: green; }
+  </style>
+</head>
+<body>
+  <h2>گفت‌وگو با فروشنده</h2>
+  <div id="messages"></div>
+  <form id="msgForm">
+    <input type="text" id="msgInput" placeholder="پیام خود را بنویسید..." required />
+    <button type="submit">ارسال</button>
+  </form>
+  <script src="chat.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>خریدار | بازار آنلاین افغانستان</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>خریدار | بازار آنلاین افغانستان</h1>
+
+  <input id="search" placeholder="جستجو بر اساس عنوان..." oninput="showAds()"><br><br>
+
+  <div id="ads-list"></div>
+
+  <h2>ثبت آگهی جدید</h2>
+  <input id="title" placeholder="عنوان آگهی"><br>
+  <input id="price" placeholder="قیمت (افغانی)"><br>
+  <input id="phone" placeholder="شماره تماس (مثلاً 93XXXXXXXXX)"><br>
+
+  <select id="category">
+    <option value="خانه">خانه</option>
+    <option value="موتر">موتر</option>
+    <option value="موبایل">موبایل</option>
+    <option value="لوازم خانه">لوازم خانه</option>
+    <option value="لوازم برقی">لوازم برقی</option>
+  </select><br>
+
+  <input id="image" type="file" accept="image/*"><br>
+  <button onclick="addAd()">ثبت آگهی</button>
+</body>
+</html>

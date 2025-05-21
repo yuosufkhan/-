@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>ثبت آگهی</title>
+</head>
+<body>
+  <h2>ثبت آگهی جدید</h2>
+  <form id="addForm">
+    <input type="text" id="title" placeholder="عنوان" required /><br>
+    <input type="text" id="price" placeholder="قیمت" required /><br>
+    <input type="file" id="image" accept="image/*" /><br>
+    <select id="category">
+      <option>وسایل نقلیه</option>
+      <option>وسایل خانه</option>
+      <option>وسایل آشپز خانه</option>
+      <option>لوازم الکترونیکی</option>
+      <option>املاک</option>
+      <option>حیوانات</option>
+      <option>کالا لباس</option>
+    </select><br>
+    <input type="text" id="location" placeholder="موقعیت" /><br>
+    <button type="submit">ثبت</button>
+  </form>
+  <script src="add.js"></script>
+</body>
+</html>
